@@ -27,6 +27,7 @@ public class SortGridTest {
     private static double checkAccessCount(int c, int c1, int c2, int c3) {
 	System.out.println("Checking access count...");
 	double score = 0.0;
+	System.out.println(c + "    "  + c1 + "    "  + c2);
 	if(c <= 0) {
 	    System.out.println("Access count <= 0? Something isn't right...");
 	    return 0;
