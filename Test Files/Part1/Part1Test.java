@@ -9,7 +9,7 @@ public class Part1Test {
 	runTest(testNum, gridNum, m, exp, accessCount);
 	//Test 2
 	testNum++;
-	exp = 7840L;
+	exp = 22680L;
 	accessCount = 192;
 	m = 5;
 	runTest(testNum, gridNum, m, exp, accessCount);
@@ -36,14 +36,14 @@ public class Part1Test {
 	//Test 6                                                                 
 	testNum++;
         m = 9;
-        exp = 26127360L;
+        exp = 34292160L;
 	accessCount = 6246;
         runTest(testNum, gridNum, m, exp, accessCount);
 	//Test 7                                                                    
 	testNum++;
         gridNum++;
         m = 5;
-        exp = 52488L;
+        exp = 59049L;
 	accessCount = 27854;
         runTest(testNum, gridNum, m, exp, accessCount);
         //Test 8                                                                    
@@ -87,7 +87,7 @@ public class Part1Test {
 	}
     }
 
-    private static void printMsg2(int testNum, long act, long exp) {
+    private static void printMsg2(int testNum, long act, long exp) {System.out.println(act);
 	if(act <= exp) {
 	    System.out.println("Test " + testNum + " runtime test passed!\n");
 	} else {
